@@ -3,7 +3,7 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<title>Go Maths</title>
+	<title>Find Next Line</title>
     
     <!-- stylesheets included -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -19,15 +19,21 @@
     <!-- scripts included -->
     
     <!-- our scripts -->
-    <script src="js/algo.js"></script>
     
 </head>
 
 <body id="body">
 <div class="contents">
-	<button class="btn-default" id="generate">Generate next line</button>
-	<div id="lines"></div>
+	<button class="btn-default" id="generate" onclick="writeNextLine()">Generate next line</button>
+	<div class="container" id="lines">
+		<div class="line" id="line-1">
+			1
+		</div>
+	</div>
 </div>
+
+<script src="js/algo.js"></script>
+
 </body>
 	
 </html>
